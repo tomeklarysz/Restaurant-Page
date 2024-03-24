@@ -1,0 +1,13 @@
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  text-align: center;
+}
+
+#home {
+  border-radius: 10px;
+}
