@@ -1,6 +1,7 @@
 import './style.css';
 import { loadHome } from './home';
 import { loadMenu } from './menu';
+import { loadContact } from './contact';
 
 console.log('checking')
 
@@ -12,4 +13,5 @@ homeBtn.addEventListener('click', () => {
 const menuBtn = document.getElementById('menu');
 menuBtn.addEventListener('click', loadMenu);
 
-// loadHome()
+const conBtn = document.getElementById('contact');
+conBtn.addEventListener('click', loadContact);
