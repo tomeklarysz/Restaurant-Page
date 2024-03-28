@@ -1,7 +1,7 @@
 import Picture from './media/home.jpg';
 
 const loadHome = () => {
-  const homeDiv = document.createElement('div');
+  const homeDiv = document.getElementById('content');
   
   const h1 = document.createElement('h1')
   h1.textContent = 'Your local bubble tea place';
@@ -14,8 +14,6 @@ const loadHome = () => {
   homePic.src = Picture;
   imgContainer.appendChild(homePic);
   homeDiv.appendChild(imgContainer);
-
-  document.body.appendChild(homeDiv);
 }
 
 export { loadHome };

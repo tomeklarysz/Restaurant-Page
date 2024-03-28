@@ -1,7 +1,7 @@
 import Picture from "./media/menu.jpg"
 
 const loadMenu = () => {
-  const menuDiv = document.createElement('div');
+  const menuDiv = document.getElementById('content');
   
   const h1 = document.createElement('h1');
   h1.textContent = 'Menu';
@@ -17,7 +17,6 @@ const loadMenu = () => {
   imgContainer.appendChild(menuPic);
   menuDiv.appendChild(imgContainer);
   
-  document.body.appendChild(menuDiv);
 }
 
 export { loadMenu };

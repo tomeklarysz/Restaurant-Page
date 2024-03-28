@@ -1,5 +1,5 @@
 const loadContact = () => {
-  const conDiv = document.createElement('div');
+  const conDiv = document.getElementById('content');
   const h1 = document.createElement('h1');
   h1.textContent = 'Contact us!';
   h1.style.textAlign = 'center';
@@ -21,8 +21,6 @@ const loadContact = () => {
   infoDiv.appendChild(mail);
 
   conDiv.appendChild(infoDiv);
-
-  document.body.appendChild(conDiv);
 }
 
 export { loadContact };
